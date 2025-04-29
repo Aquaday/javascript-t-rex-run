@@ -1,0 +1,36 @@
+@keyframes slideright {
+  from {
+    background-position: -70000%;
+  }
+  to {
+    background-position: 0%;
+  }
+}
+
+
+
+#desert {
+  position: absolute;
+  background-image: url("T-Rex-horizon.png");
+  background-position: bottom;
+  bottom: 0;
+  height: 200px;
+  width: 100%;
+  animation: slideright 2000s infinite linear;
+}
+
+.dino {
+  background-image: url("T-Rex_Run.png");
+  height: 85px;
+  width: 85px;
+  position: absolute;
+  bottom: 0;
+}
+
+.obstacle {
+  background-image: url("1_Cactus.png");
+  height: 105px;
+  width: 50px;
+  bottom: 0;
+  position: absolute;
+}
