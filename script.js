@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let isGameOver = false
 
 
-    // Funksjonen skjekker om eventet eller (e) har skjedd, 
+    // Funksjonen skjekker om det spesifikke eventet eller (e) har skjedd, 
     // i dette tilfelle sjekker om "eventet" e.code === "Space"/ space er trykket på, 
     // og gjør deretter det som er inne i funksjonen
     function control(e) {
