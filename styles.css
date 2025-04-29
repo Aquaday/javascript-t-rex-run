@@ -9,12 +9,10 @@
   }
 }
 
-
-
 #desert {
-  position: absolute;
+    /* Position: absolute; sammen med bottom:0; legger den til helt nederst av den synlige skjermen din når du først laster siden inn, uavhengig av andre elementer på siden */
   background-image: url("T-Rex-horizon.png");
-  background-position: bottom;
+  position: absolute;
   bottom: 0;
   height: 200px;
   width: 100%;
@@ -25,7 +23,6 @@
   background-image: url("T-Rex_Run.png");
   height: 85px;
   width: 85px;
-  /* Position: absolute; sammen med bottom:0; legger den til helt nederst på siden, uavhengig av andre elementer på siden */
   position: absolute;
   bottom: 0;
 }
