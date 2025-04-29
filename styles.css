@@ -1,3 +1,5 @@
+/* Lager animasjon som gjør at den starter på -70000%, og beveger seg til venstre */
+
 @keyframes slideright {
   from {
     background-position: -70000%;
@@ -23,6 +25,7 @@
   background-image: url("T-Rex_Run.png");
   height: 85px;
   width: 85px;
+  /* Position: absolute; sammen med bottom:0; legger den til helt nederst på siden, uavhengig av andre elementer på siden */
   position: absolute;
   bottom: 0;
 }
