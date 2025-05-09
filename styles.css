@@ -2,7 +2,7 @@
 
 @keyframes slideright {
   from {
-    background-position: -70000%;
+    background-position: 70000%;
   }
   to {
     background-position: 0%;
@@ -16,7 +16,7 @@
   bottom: 0;
   height: 200px;
   width: 100%;
-  animation: slideright 2000s infinite linear;
+  animation: slideright 600s infinite linear;
 }
 
 .dino {
